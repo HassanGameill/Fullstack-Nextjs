@@ -6,9 +6,7 @@ import { useRouter } from '@/navigation';
 import axios from 'axios';
 import ButtonSpinner from '@/components/common/ButtonSpinner/ButtonSpinnner';
 
-
-
-const DOMAIN = "http://localhost:3000";
+import { DOMAIN } from '@/utils/Constans/Constans';
 
 
 const LoginForm = () => {
