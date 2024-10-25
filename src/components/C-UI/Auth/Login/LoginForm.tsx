@@ -5,10 +5,10 @@ import { toast } from 'react-toastify';
 import { useRouter } from '@/navigation';
 import axios from 'axios';
 import ButtonSpinner from '@/components/common/ButtonSpinner/ButtonSpinnner';
+import { DOMAIN } from '@/utils/Constans/Constans';
 
 
 
-const DOMAIN = "http://localhost:3000";
 
 
 const LoginForm = () => {
